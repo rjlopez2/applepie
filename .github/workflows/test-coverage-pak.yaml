@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      CODECOV_TOKEN: '8e078eb6-61eb-4c89-9b74-c95b8dcef9a9'
 
     steps:
       - uses: actions/checkout@v2
